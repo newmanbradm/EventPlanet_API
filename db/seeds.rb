@@ -1,7 +1,45 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+User.create(name: "Brad", email: "newmanbradm@gmail.com", password: "bradnewman" )
+
+Event.create(title: "First Event", date: "September 29, 2018", rain_date: "none", description: "example", contact_details: "Brad at 908-442-1251", budget: 1000, user_id: 1)
+Event.create(title: "Second Event", date: "December 29, 2018", rain_date: "none", description: "example", contact_details: "Brad at 908-442-1251", budget: 1000, user_id: 1)
+
+Post.create(image_url: "jksdhfkjshdf", event_id: 1)
+Post.create(image_url: "jksdhfkjshdf", event_id: 1)
+Post.create(image_url: "jksdhfkjshdf", event_id: 2)
+Post.create(image_url: "jksdhfkjshdf", event_id: 2)
+
+Comment.create(message: "This is the first comment.", post_id: 1)
+Comment.create(message: "This is the second comment.", post_id: 1)
+Comment.create(message: "This is the first comment.", post_id: 2)
+Comment.create(message: "This is the second comment.", post_id: 2)
+Comment.create(message: "This is the first comment.", post_id: 3)
+Comment.create(message: "This is the second comment.", post_id: 3)
+Comment.create(message: "This is the first comment.", post_id: 4)
+Comment.create(message: "This is the second comment.", post_id: 4)
+
+Supply.create(name: "Tablecloth", price: 5, store_url: "jkhsfkljasf", event_id: 1)
+Supply.create(name: "Centerpiece", price: 10, store_url: "jkhsfkljasf", event_id: 1)
+Supply.create(name: "Tablecloth", price: 5, store_url: "jkhsfkljasf", event_id: 2)
+Supply.create(name: "Centerpiece", price: 10, store_url: "jkhsfkljasf", event_id: 2)
+
+Venue.create(name: "Holiday Inn", image_url: "kljhsdfkj", address: "324 Newport Road")
+Venue.create(name: "Woodglen Park", image_url: "kljhsdfkj", address: "324 Newport Road")
+Venue.create(name: "Prudential Center", image_url: "kljhsdfkj", address: "324 Newport Road")
+Venue.create(name: "Blue Mountain", image_url: "kljhsdfkj", address: "324 Newport Road")
+
+Guest.create(name: "Alex", phone_number: "123-456-7890", email: "Alex@example.com")
+Guest.create(name: "Leann", phone_number: "123-456-7890", email: "Leann@example.com")
+Guest.create(name: "Laura", phone_number: "123-456-7890", email: "Laura@example.com")
+Guest.create(name: "Sarah", phone_number: "123-456-7890", email: "Sarah@example.com")
+
+EventVenue.create(event_id: 1, venue_id: 1)
+EventVenue.create(event_id: 1, venue_id: 2)
+EventVenue.create(event_id: 2, venue_id: 1)
+EventVenue.create(event_id: 2, venue_id: 3)
+EventVenue.create(event_id: 2, venue_id: 4)
+
+EventGuest.create(event_id: 1, guest_id: 1)
+EventGuest.create(event_id: 1, guest_id: 2)
+EventGuest.create(event_id: 2, guest_id: 1)
+EventGuest.create(event_id: 2, guest_id: 3)
+EventGuest.create(event_id: 2, guest_id: 4)
