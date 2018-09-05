@@ -7,7 +7,7 @@ Event.create(title: "Fourth Event", date: "December 29, 2018", rain_date: "none"
 Event.create(title: "Fifth Event", date: "September 29, 2018", rain_date: "none", description: "example", contact_details: "Brad at 908-442-1251", budget: 1000, user_id: 1)
 Event.create(title: "Sixth Event", date: "December 29, 2018", rain_date: "none", description: "example", contact_details: "Brad at 908-442-1251", budget: 1000, user_id: 1)
 Event.create(title: "Seventh Event", date: "September 29, 2018", rain_date: "none", description: "example", contact_details: "Brad at 908-442-1251", budget: 1000, user_id: 1)
-Event.create(title: "Eights Event", date: "December 29, 2018", rain_date: "none", description: "example", contact_details: "Brad at 908-442-1251", budget: 1000, user_id: 1)
+Event.create(title: "Eighth Event", date: "December 29, 2018", rain_date: "none", description: "example", contact_details: "Brad at 908-442-1251", budget: 1000, user_id: 1)
 Event.create(title: "Ninth Event", date: "September 29, 2018", rain_date: "none", description: "example", contact_details: "Brad at 908-442-1251", budget: 1000, user_id: 1)
 Event.create(title: "Tenth Event", date: "December 29, 2018", rain_date: "none", description: "example", contact_details: "Brad at 908-442-1251", budget: 1000, user_id: 1)
 Event.create(title: "Eleventh Event", date: "September 29, 2018", rain_date: "none", description: "example", contact_details: "Brad at 908-442-1251", budget: 1000, user_id: 1)
