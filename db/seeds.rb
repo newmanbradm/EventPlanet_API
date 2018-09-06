@@ -33,10 +33,10 @@ Supply.create(name: "Centerpiece", price: 10, store_url: "jkhsfkljasf", event_id
 Supply.create(name: "Tablecloth", price: 5, store_url: "jkhsfkljasf", event_id: 2)
 Supply.create(name: "Centerpiece", price: 10, store_url: "jkhsfkljasf", event_id: 2)
 
-Venue.create(name: "Holiday Inn", image_url: "kljhsdfkj", address: "324 Newport Road")
-Venue.create(name: "Woodglen Park", image_url: "kljhsdfkj", address: "324 Newport Road")
-Venue.create(name: "Prudential Center", image_url: "kljhsdfkj", address: "324 Newport Road")
-Venue.create(name: "Blue Mountain", image_url: "kljhsdfkj", address: "324 Newport Road")
+Venue.create(name: "Holiday Inn", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY6f1U_q-Mxl4WS9MTXBM9y-559rgmMhOw_kboIc7ZTZPUWTc5", address: "324 Newport Road")
+Venue.create(name: "Woodglen Park", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY6f1U_q-Mxl4WS9MTXBM9y-559rgmMhOw_kboIc7ZTZPUWTc5", address: "324 Newport Road")
+Venue.create(name: "Prudential Center", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY6f1U_q-Mxl4WS9MTXBM9y-559rgmMhOw_kboIc7ZTZPUWTc5", address: "324 Newport Road")
+Venue.create(name: "Blue Mountain", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY6f1U_q-Mxl4WS9MTXBM9y-559rgmMhOw_kboIc7ZTZPUWTc5", address: "324 Newport Road")
 
 Guest.create(name: "Alex", phone_number: "123-456-7890", email: "Alex@example.com")
 Guest.create(name: "Leann", phone_number: "123-456-7890", email: "Leann@example.com")
