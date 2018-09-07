@@ -14,10 +14,10 @@ Event.create(title: "Eleventh Event", date: "September 29, 2018", rain_date: "no
 Event.create(title: "Last Event", date: "September 29, 2018", rain_date: "none", description: "example", contact_details: "Brad at 908-442-1251", budget: 1000, user_id: 1)
 
 
-Post.create(image_url: "jksdhfkjshdf", event_id: 1)
-Post.create(image_url: "jksdhfkjshdf", event_id: 1)
-Post.create(image_url: "jksdhfkjshdf", event_id: 2)
-Post.create(image_url: "jksdhfkjshdf", event_id: 2)
+Post.create(image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSumcAp6fF2G68mYg_A7J31a8WJXq-Lu13b7g_6IXiKRjz-F45b", event_id: 1)
+Post.create(image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYrmioiv3SU9dceXcCoJ0KJwdDugDo3IsHKnYE_1hE_QSO3HXg", event_id: 1)
+Post.create(image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSumcAp6fF2G68mYg_A7J31a8WJXq-Lu13b7g_6IXiKRjz-F45b", event_id: 2)
+Post.create(image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYrmioiv3SU9dceXcCoJ0KJwdDugDo3IsHKnYE_1hE_QSO3HXg", event_id: 2)
 
 Comment.create(message: "This is the first comment.", post_id: 1)
 Comment.create(message: "This is the second comment.", post_id: 1)
@@ -28,10 +28,10 @@ Comment.create(message: "This is the second comment.", post_id: 3)
 Comment.create(message: "This is the first comment.", post_id: 4)
 Comment.create(message: "This is the second comment.", post_id: 4)
 
-Supply.create(name: "Tablecloth", price: 5, store_url: "jkhsfkljasf", event_id: 1)
-Supply.create(name: "Centerpiece", price: 10, store_url: "jkhsfkljasf", event_id: 1)
-Supply.create(name: "Tablecloth", price: 5, store_url: "jkhsfkljasf", event_id: 2)
-Supply.create(name: "Centerpiece", price: 10, store_url: "jkhsfkljasf", event_id: 2)
+Supply.create(name: "Tablecloth", price: 5, store_url: "https://www.walmart.com", event_id: 1)
+Supply.create(name: "Centerpiece", price: 10, store_url: "https://www.target.com", event_id: 1)
+Supply.create(name: "Tablecloth", price: 5, store_url: "https://www.walmart.com", event_id: 2)
+Supply.create(name: "Centerpiece", price: 10, store_url: "https://www.target.com", event_id: 2)
 
 Venue.create(name: "Holiday Inn", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY6f1U_q-Mxl4WS9MTXBM9y-559rgmMhOw_kboIc7ZTZPUWTc5", address: "324 Newport Road")
 Venue.create(name: "Woodglen Park", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY6f1U_q-Mxl4WS9MTXBM9y-559rgmMhOw_kboIc7ZTZPUWTc5", address: "324 Newport Road")
