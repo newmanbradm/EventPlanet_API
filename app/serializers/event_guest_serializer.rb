@@ -1,5 +1,5 @@
 class EventGuestSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :event_id, :guest_id
   belongs_to :event
   belongs_to :guest
 end
