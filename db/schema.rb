@@ -72,7 +72,7 @@ ActiveRecord::Schema.define(version: 2018_08_30_141821) do
 
   create_table "supplies", force: :cascade do |t|
     t.string "name"
-    t.integer "price"
+    t.float "price"
     t.text "store_url"
     t.bigint "event_id"
     t.datetime "created_at", null: false
