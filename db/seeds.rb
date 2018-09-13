@@ -15,8 +15,8 @@ Post.create(image_url: "https://media.nbcphiladelphia.com/images/652*367/Oink+an
 Comment.create(message: "Beautiful welcome sign!", post_id: 1)
 Comment.create(message: "Gravitron", post_id: 3)
 Comment.create(message: "Call Gary at 908-756-9237.", post_id: 3)
-Comment.create(message: "Oink & Moo Food Truck.", post_id: 4)
-Comment.create(message: "Contact Sally, sally@example.com", post_id: 4)
+Comment.create(message: "Oink & Moo Food Truck.", post_id: 5)
+Comment.create(message: "Contact Sally, sally@example.com", post_id: 5)
 
 Supply.create(name: "4 Table Runners", price: 63.96, store_url: "https://www.pier1.com/autumn-plaid-table-runner-with-fringe-/3570792.html?cgid=table_runners#nav=left&origin=gridswatch", event_id: 1)
 Supply.create(name: "4 Centerpieces", price: 199.96, store_url: "https://www.pier1.com/white-sunflower-%26-pumpkin-centerpiece-candle-holder/3577976.html#q=centerpieces&origin=gridswatch", event_id: 1)
